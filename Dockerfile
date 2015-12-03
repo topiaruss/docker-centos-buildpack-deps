@@ -1,4 +1,5 @@
 FROM centos:centos7
+
 MAINTAINER Russ Ferriday "russf@topia.com"
 
 RUN yum -y update && yum -y groupinstall 'Development Tools' && yum -y install \
