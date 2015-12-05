@@ -16,6 +16,7 @@ RUN yum -y update && yum -y groupinstall 'Development Tools' && yum -y install \
     openssl \
     openssl-devel \
     postgresql-devel \
+    mysql-devel \
     readline \
     readline-devel \
     sqlite-devel \
